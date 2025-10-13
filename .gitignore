@@ -1,6 +1,9 @@
 # Large binary files
 *.slf
 
+# venv
+.venv/
+
 # Python cache
 __pycache__/
 *.pyc
@@ -10,9 +13,10 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+tmp/
 
 # Results and temporary files
-results/
+results*/
 *.log
 PID
 
