@@ -1,0 +1,10 @@
+{
+    "id": "Telemac",
+    "varprefix": "$", 
+    "formulaprefix": "@", 
+    "delim": "()", 
+    "commentline": "/",
+    "output": {
+        "": ""
+    }
+}
