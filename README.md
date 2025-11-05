@@ -14,6 +14,12 @@ cd fz-telemac
 
 Ensure you have docker installed, or if a local Telemac installation is available (then fix the path in `Telemac.sh`).
 
+Install dependencies for Telemac.sh (convert .res binary file in .csv format, from .poi files):
+```bash
+# required for output extraction in Telemac.sh
+pip install https://github.com/CNR-Engineering/PyTelTools/zipball/master
+```
+
 2. Install fz (if not already installed):
 ```bash
 pip install git+https://github.com/Funz/fz.git
